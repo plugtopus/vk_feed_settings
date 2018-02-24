@@ -1,136 +1,85 @@
-new Proxy()
-.addRule('shExpMatch(url, "*.vkuseraudio.*")')
-.addRule('shExpMatch(url, "vkuseraudio.net*")')
-.addRule('shExpMatch(url, "*vkuseraudio.net*")')
-.addRule('shExpMatch(url, "vk.*")')
-.addRule('shExpMatch(url, "vk.*")')
-.addRule('shExpMatch(url, "*.vk.*")')
-.addRule('shExpMatch(url, "vk-cdn.*")')
-.addRule('shExpMatch(url, "*.vk-cdn.*")')
-.addRule('shExpMatch(url, "vkuservideo.*")')
-.addRule('shExpMatch(url, "*.vkuservideo.*")')
-.addRule('shExpMatch(url, "vkuserlive.*")')
-.addRule('shExpMatch(url, "*.vkuserlive.*")')
-.addRule('shExpMatch(url, "userapi.com")')
-.addRule('shExpMatch(url, "apivk.com")')
-.addRule('shExpMatch(url, "yandex.*")')
-.addRule('shExpMatch(url, "*.yandex.*")')
-.addRule('shExpMatch(url, "ya.ru")')
-.addRule('shExpMatch(url, "*.ya.ru")')
-.addRule('shExpMatch(url, "ya.cc")')
-.addRule('shExpMatch(url, "*.ya.cc")')
-.addRule('shExpMatch(url, "bk.ru")')
-.addRule('shExpMatch(url, "*.bk.ru")')
-.addRule('shExpMatch(url, "yandex-launcher.com")')
-.addRule('shExpMatch(url, "yandexdatafactory.ru")')
-.addRule('shExpMatch(url, "yandexlauncher.com")')
-.addRule('shExpMatch(url, "yandexlyceum.ru")')
-.addRule('shExpMatch(url, "yandextrafik.com.tr")')
-.addRule('shExpMatch(url, "yandex-school.ru")')
-.addRule('shExpMatch(url, "yandexdatafactory.com")')
-.addRule('shExpMatch(url, "yandexdataschool.*")')
-.addRule('shExpMatch(url, "yandex-ad.cn")')
-.addRule('shExpMatch(url, "yandexadexchange.net")')
-.addRule('shExpMatch(url, "yaani.ru")')
-.addRule('shExpMatch(url, "yandex-amp.net")')
-.addRule('shExpMatch(url, "*.yandex-amp.net")')
-.addRule('shExpMatch(url, "*.yandex-launcher.com")')
-.addRule('shExpMatch(url, "*.yandexdatafactory.ru")')
-.addRule('shExpMatch(url, "*.yandexlauncher.com")')
-.addRule('shExpMatch(url, "*.yandexlyceum.ru")')
-.addRule('shExpMatch(url, "*.yandextrafik.com.tr")')
-.addRule('shExpMatch(url, "*.yandex-school.ru")')
-.addRule('shExpMatch(url, "*.yandexdatafactory.com")')
-.addRule('shExpMatch(url, "*.yandexdataschool.*")')
-.addRule('shExpMatch(url, "*.yandex-ad.cn")')
-.addRule('shExpMatch(url, "*.yandexadexchange.net")')
-.addRule('shExpMatch(url, "webvisor.*")')
-.addRule('shExpMatch(url, "*.webvisor.*")')
-.addRule('shExpMatch(url, "avto.ru")')
-.addRule('shExpMatch(url, "auto.ru")')
-.addRule('shExpMatch(url, "autoru.tv")')
-.addRule('shExpMatch(url, "ok.com")')
-.addRule('shExpMatch(url, "ok.ru")')
-.addRule('shExpMatch(url, "ok.me")')
-.addRule('shExpMatch(url, "*.ok.ru")')
-.addRule('shExpMatch(url, "*.ok.me")')
-.addRule('shExpMatch(url, "*.ok.com")')
-.addRule('shExpMatch(url, "odnoklassniki.*")')
-.addRule('shExpMatch(url, "*.odnoklassniki.*")')
-.addRule('shExpMatch(url, "mail.ua")')
-.addRule('shExpMatch(url, "*.mail.ua")')
-.addRule('shExpMatch(url, "appsmail.ru")')
-.addRule('shExpMatch(url, "attachmail.ru")')
-.addRule('shExpMatch(url, "datacloudmail.ru")')
-.addRule('shExpMatch(url, "distribmail.ru")')
-.addRule('shExpMatch(url, "owamail.ru")')
-.addRule('shExpMatch(url, "portal.mail.ru")')
-.addRule('shExpMatch(url, "*.mail.ru")')
-.addRule('shExpMatch(url, "imgsmail.ru")')
-.addRule('shExpMatch(url, "*.imgsmail.ru")')
-.addRule('shExpMatch(url, "mail.ru")')
-.addRule('shExpMatch(url, "cldmail.ru")')
-.addRule('shExpMatch(url, "cdnmail.ru")')
-.addRule('shExpMatch(url, "*.appsmail.ru")')
-.addRule('shExpMatch(url, "*.attachmail.ru")')
-.addRule('shExpMatch(url, "*.datacloudmail.ru")')
-.addRule('shExpMatch(url, "*.distribmail.ru")')
-.addRule('shExpMatch(url, "*.owamail.ru")')
-.addRule('shExpMatch(url, "*.portal.mail.ru")')
-.addRule('shExpMatch(url, "*.cldmail.ru")')
-.addRule('shExpMatch(url, "*.cdnmail.ru")')
-.addRule('shExpMatch(url, "kinopoisk.ru")')
-.addRule('shExpMatch(url, "*.kinopoisk.ru")')
-.addRule('shExpMatch(url, "yandex.*")')
-.addRule('shExpMatch(url, "*.yandex.*")')
-.addRule('shExpMatch(url, "*.yandex")')
-.addRule('shExpMatch(url, "vk.*")')
-.addRule('shExpMatch(url, "*.vk.*")')
-.addRule('shExpMatch(url, "kaspersky.*")')
-.addRule('shExpMatch(url, "*vk.com*")')
-.addRule('shExpMatch(url, "*vk.ru*")')
-.addRule('shExpMatch(url, "*vkontakte.ru*")')
-.addRule('shExpMatch(url, "*vkontakte.com*")')
-.addRule('shExpMatch(url, "*apivk.com*")')
-.addRule('shExpMatch(url, "*userapi.com*")')
-.addRule('shExpMatch(url, "*vk-cdn.net*")')
-.addRule('shExpMatch(url, "*vk-cdn.me*")')
-.addRule('shExpMatch(url, "*vk.cc*")')
-.addRule('shExpMatch(url, "*vkforms.ru*")')
-.addRule('shExpMatch(url, "*drweb.ua*")')
-.addRule('shExpMatch(url, "*drweb.ru*")')
-.addRule('shExpMatch(url, "*ok.com*")')
-.addRule('shExpMatch(url, "*odnoklassniki.com.ua*")')
-.addRule('shExpMatch(url, "*odnoklassniki.ru*")')
-.addRule('shExpMatch(url, "*mycdn.me*")')
-.addRule('shExpMatch(url, "*odnoklassniki.ua*")')
-.addRule('shExpMatch(url, "*ok.ru*")')
-.addRule('shExpMatch(url, "*ok.me*")')
-.addRule('shExpMatch(url, "*music.yandex.ua*")')
-.addRule('shExpMatch(url, "*music.yandex.ru*")')
-.addRule('shExpMatch(url, "*yandex.st*")')
-.addRule('shExpMatch(url, "*yastatic.net*")')
-.addRule('shExpMatch(url, "*portal.mail.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*ad.mail.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*mail.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*ya.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*kinopoisk.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*drweb.com*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*kaspersky.ua*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*yastatic.net*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*yandex.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*yandex.net*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*yandex.com*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*livejournal.ru*")', 'reserved_nl1')
-.addRule('shExpMatch(url, "*yandex.ua*")', 'reserved_nl1')
+(() => {
+	"use strict";
+	
+    var classNames = [ "external_links", "links", "apps", "instagram", "video", "group_share", "mem_link", "event_share", "wall_post_more", "likes", "comments" ];
+    var cffvkFiltersSelector = classNames.map(function buildSelector(className) { return `.cffvk-${className}`; }).join();
+    var css = { groups: "[id^='feed_repost-'], [id^='feed_reposts_'] { display: none; }", myGroups: "[id^='post-'].post_copy { display: none; }", groupsAndPeople: "[id^='feed_repost'] { display: none; }", filters: `${cffvkFiltersSelector} { display: none; }`, show: function show(rule) { return rule.replace(/none/g, "block"); } };
+    
+	var options = { groups: true, links: true, apps: true, group_share: true, event_share: true };
 
-.resolveTo({
-	"reserved_nl1": "PROXY s1.telvanil.ru:1448;PROXY s3.telvanil.ru:1448;",
-	"reserved_nl2": "PROXY s2.telvanil.ru:1448;PROXY s4.telvanil.ru:1448;",
-	"main": "PROXY s2.telvanil.ru:1448"
-}).buildPacScript((data) => {
-	chrome.proxy.settings.set({value: {mode: "pac_script", pacScript: {data: data}}, scope:"regular"})
-});
+    function disable(tabId) {
+        chrome.pageAction.setIcon({
+            tabId,
+            path: "img/disabled-icon16.png"
+        });
+        chrome.tabs.insertCSS(tabId, {
+            code: css.show(css.groupsAndPeople + css.myGroups + css.filters)
+        });
+        chrome.tabs.sendMessage(tabId, {
+            action: "disable"
+        });
+    }
 
-chrome.browserAction.onClicked.addListener(() => chrome.tabs.create({url: 'https://vk.com', active: true}));
+    function execute(tabId) {
+        if (options["is-disabled"]) {
+            return disable(tabId);
+        }
+        var cssCode = css.show(css.groupsAndPeople + css.myGroups);
+        if (options.groups) {
+            var peopleCssCode = options.people ?
+                css.groupsAndPeople :
+                css.show(css.groupsAndPeople) + css.groups;
+            var myGroupsCssCode = options.mygroups ?
+                css.myGroups :
+                css.show(css.myGroups);
 
+            cssCode = peopleCssCode + myGroupsCssCode;
+        }
+        chrome.pageAction.setIcon({
+            tabId,
+            path: "img/icon16.png"
+        });
+        chrome.tabs.insertCSS(tabId, {
+            code: cssCode + css.filters
+        });
+        chrome.tabs.sendMessage(tabId, {
+            action: "clean",
+            options
+        });
+    }
+
+    function activate(sender) {
+        if (/\/feed\?[wz]=/.test(sender.tab.url)) {
+            return;
+        }
+        if (!sender.tab.url.includes("vk.com/feed") ||
+            (/photos|videos|articles|likes|notifications|comments|updates|replies/)
+            .test(sender.tab.url)
+        ) {
+            chrome.pageAction.hide(sender.tab.id);
+            return disable(sender.tab.id);
+        }
+        chrome.storage.sync.get(function applyoptions(loadedoptions) {
+            if (Object.keys(loadedoptions).length) {
+                options = loadedoptions;
+            } else {
+                chrome.storage.sync.set(options);
+            }
+            execute(sender.tab.id);
+        });
+        chrome.pageAction.show(sender.tab.id);
+    }
+
+    chrome.runtime.onMessage.addListener(
+        function handleMessage(message, sender) {
+            if (message.action === "execute") {
+                options = message.options;
+                return execute(message.tabId);
+            }
+            if (message.action === "activate") {
+                activate(sender);
+            }
+        }
+    );
+	
+})();
