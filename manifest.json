@@ -10,7 +10,6 @@
    } ],
    "default_locale": "ru",
    "homepage_url": "https://plugtopus.agency",
-   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "description": "__MSG_desc__",
    "icons": {
       "128": "img/icon128.png",
@@ -24,7 +23,7 @@
       "default_popup": "popup/popup.html"
    },
    "offline_enabled": false,
-   "permissions": [ "*://*/*", "\u003Call_urls>", "activeTab", "alarms", "browsingData", "contextMenus", "cookies", "declarativeContent",  "notifications", "sessions", "storage", "tabCapture", "tabs", "topSites", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking" ],
+   "permissions": [ "*://vk.com/*", "storage" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2018.2.24.1"
+   "version": "2018.2.26.1"
 }
