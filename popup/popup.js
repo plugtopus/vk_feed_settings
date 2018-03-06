@@ -1,7 +1,7 @@
 (() => {
     "use strict";
 
-    function setUpTheSettingsPage(settings) {
+    function setSettingsPage(settings) {
 		
         var checkboxes = document.querySelectorAll("input");
 
@@ -71,6 +71,6 @@
 
     NodeList.prototype.forEach = NodeList.prototype.forEach || Array.prototype.forEach;
 
-    chrome.storage.sync.get(setUpTheSettingsPage);
+    chrome.storage.sync.get(setSettingsPage);
 	
 }());
